@@ -2,10 +2,14 @@
   "name": "nodejs-helloworld",
   "version": "1.0.0",
   "description": "Hello World!",
-  "main": "start:" "node app.js",
+  "main": "app.js",
   "author": "Red Hat Training",
   "license": "ASL",
   "dependencies": {
     "express": "4.14.x"
-  }
+  },
+  "description": "Hello World!",
+  "main": "app.js",
+  "scripts": { "start": "node app.js" },
+  "author": "Red Hat Training",
 }
